@@ -1,0 +1,54 @@
+.news {
+    padding: 50px 0;
+    p {
+        max-width: 900px;
+        margin: 0 auto 5px;
+        font-size: 16px;
+    }
+    .title {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+    .btn {
+        margin-top: 30px;
+    }
+}
+
+.schedule {
+    .title{
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #de6d48;
+    }
+    .sub-title {
+      font-size: 18px;
+      text-align: center;
+      font-weight: 600;
+      display: block;
+    }
+  .speaker {
+    text-align: center;
+    margin: 20px 0;
+    .speaker-name{
+      display: block;
+      font-size: 16px;
+      line-height: 16px;
+      text-align: center;
+      font-weight: 600;
+      color: #de6d48;
+    }
+    .photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 100%;
+      display: inline-block;
+      overflow: hidden;
+      margin-bottom: 20px;
+      border: solid 1px #979797;
+      img{
+          max-height: 100%;
+      }
+    }
+  }
+}
